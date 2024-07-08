@@ -22,24 +22,6 @@ function receivesAFunction(postWorkout) {
   postWorkout();
 }
 
-// function returnsANamedFunction(exercise) {
-//   let breakfast;
-
-//   if (exercise === run) {
-//     breakfast = "energy smoothie";
-//   } else if (exercise === swim) {
-//     breakfast = "kale smoothie";
-//   } else {
-//     breakfast = "tea and biscuits";
-//   }
-
-//   receivesAFunction(exercise);
-//   return function () {
-//     console.log(`This ${breakfast} is delicious!!!`);
-//   };
-// }
-// const afterExecise = returnsANamedFunction(run);
-
 function returnsANamedFunction() {
   return function greetings() {
     console.log("Hi, this is a named function!!!");
